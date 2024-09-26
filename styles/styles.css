@@ -28,7 +28,6 @@ main img {
     box-shadow: 0 0 30px gray;
     border: 1px solid steelblue;
     padding: 2px;
-    float: right; 
 }
 
 h1 {
@@ -62,12 +61,16 @@ footer {
     background-color: #ddd;
     color: #000;
 }
-/* aside{
-    width: 2em;
-    text-align: center;
-} */
+
 aside h2{
     position: absolute;
     top: 47px;
     left: 150px;
+}
+main img{
+    float: right;
+}
+aside{
+    position: relative;
+    text-align: center;
 }
