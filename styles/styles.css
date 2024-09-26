@@ -9,17 +9,19 @@ main {
 }
 
 aside {
-    background-color: #eee;
-    margin: 2em;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1em;
-    color: #333;
     width: 20em;
+    text-align: center;
+    position: relative;
 }
 
 aside img {
     width: 200px;
     height: auto;
+}
+aside h2{
+    position: absolute;
+    top: 60px;
+    left: 133px;
 }
 
 main img {
@@ -28,26 +30,35 @@ main img {
     box-shadow: 0 0 30px gray;
     border: 1px solid steelblue;
     padding: 2px;
+    float: right;
+    margin: 1rem 0 1rem 1rem;
 }
 
 h1 {
     color: steelblue;
+    padding: 1rem 0 0 1rem;
 }
 
 p {
     padding: 0;
+    margin:1rem;
 }
 
 nav a {
     color: white;
     padding: 10px;
     display: block;
+     margin: 0 0 0 0.5rem;
 }
 
 nav {
     background-color: steelblue;
+   
 }
 
+ul li{
+    margin: 0 0 0 1rem;
+}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
@@ -62,15 +73,3 @@ footer {
     color: #000;
 }
 
-aside h2{
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
-main img{
-    float: right;
-}
-aside{
-    position: relative;
-    text-align: center;
-}
