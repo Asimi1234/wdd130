@@ -76,6 +76,7 @@ section p{
 }
 .hero article p{
     margin-left: 1rem;
+  
 }
 .hero h1{
  background-color: var(--accent1-color);
@@ -96,7 +97,7 @@ nav a img{
 .hero article img{
     width: 120px;
     float: right;
-    margin: 1.4rem 1rem 1rem 1rem;
+    margin: 0.8rem 1rem 0.8rem 1rem;
     padding: 0.2rem 0.2rem;
     
 }
