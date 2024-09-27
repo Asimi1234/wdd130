@@ -1,0 +1,101 @@
+:root{
+    --primary-color: #201b11;
+    --secondary-color: #bf7f11;
+    --accent1-color: #454346;
+    --accent2-color: #f2da88;
+}
+
+/*color pallette link: https://coolors.co/201b11-243036-454346-bf7f11-f2da88 */
+
+*{
+    margin-left: 0rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-color);
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 0.5rem;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+  color: var(--accent1-color);
+}
+
+nav a{
+    text-decoration: none;
+     font-family: 'Montserrat', sans-serif;
+  color: var(--accent1-color);
+  font-weight: bold;
+}
+body{
+    max-width: 840px;
+}
+
+section h2{
+    color: var(--secondary-color);
+}
+
+article{
+    background-color: var(--accent2-color);
+    opacity: 85%;
+    width: 840px;
+    height: 120px;
+}
+main, footer, header{
+    margin-left: 4rem;
+}
+
+
+
+/* Class Selectors */
+.hero{
+    position: relative;
+
+
+}
+.hero img{
+    display: block;
+    width: 140%;
+    height: auto;
+    
+}
+ .hero article{
+    position: absolute;
+    bottom: 40%;
+    margin: 0rem 0 0 10rem;
+}
+.hero h1{
+ background-color: var(--accent1-color);
+ position: absolute;
+ bottom: 70%;
+ width: 140%;
+ text-align: center;
+ color: white;
+ font-weight: 100;
+}
+
+nav a img{
+    width: 30px;
+}
+/* .hero h1 h2{
+      position: absolute;
+} */
+.hero article img{
+    width: 120px;
+    float: right;
+    margin: 1.4rem 1rem 1rem 1rem;
+    padding: 0.2rem 0.2rem;
+    
+}
+
+
+
+
