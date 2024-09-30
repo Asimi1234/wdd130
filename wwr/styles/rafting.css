@@ -95,7 +95,13 @@ footer {
     margin-top: 2rem;
     margin-bottom: 1rem;
     justify-content: end;
-    gap: 28%;
+    gap: 29%;
+}
+.contact-footer{
+    gap: 19%;
+}
+footer p a{
+    text-decoration: none;
 }
 
 /* Class Selectors */
@@ -180,6 +186,132 @@ main .adventures div figure img {
     max-width: 100%;
     height: auto;
 }
+
+/* Contact Information Section */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.contact-box-dark {
+  flex: 1;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.contact-box-light {
+  flex: 1;
+  padding: 10px;
+  background-color: #777;
+  color: white;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: white;
+}
+
+/* Team Section */
+.team-section {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px;
+  padding: 20px;
+  text-align: center; 
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+ 
+}
+
+.team-member img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10%;
+}
+
+#team-member1 {
+  width: 60%; /* Adjust the size of team-member1 */
+}
+
+#team-member1 img {
+  width: 170%; 
+  height: 170%; 
+} 
+
+
+
+/* Contact Form Section */
+.form-section {
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.form-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-input-full {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc5f;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.newsletter-checkbox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+    display: flex;           
+    justify-content: center;
+    margin-top: 20px;       
+}
+
+
+.submit-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  border: none;
+
+}
+
+
+
 
 
 
