@@ -16,17 +16,17 @@
 body {
     max-width: 100%;
     margin: 0 auto;
+    font-family: 'Poppins', sans-serif; /* Set the default font for the body */
 }
 
 header {
-    font-family: 'Poppins', sans-serif;
-    color: var(--primary-color);
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: center;
     align-items: center;
     gap: 30%;
     margin-top: 10px;
+    color: var(--primary-color);
 }
 
 header nav {
@@ -34,23 +34,18 @@ header nav {
     flex-direction: row;
     gap: 21px;
     margin-bottom: 0.5rem;
-   
-   
 }
-header nav a{
+
+header nav a {
     text-decoration: none;
+    color: var(--accent1-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     color: var(--accent1-color);
-}
-
-nav a {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: var(--accent1-color);
-    font-weight: bold;
 }
 
 section h2 {
@@ -59,19 +54,18 @@ section h2 {
 
 article {
     background-color: var(--accent2-color);
-    opacity: 85%;
-    max-width: 100%; 
+    opacity: 0.85;
+    max-width: 100%;
     height: 120px;
 }
 
 main, footer, header {
-    margin-left: 2rem; 
+    margin-left: 2rem;
     margin-right: 2rem;
 }
 
-
 section p {
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 main .adventures h2 {
@@ -82,7 +76,7 @@ main .adventures h2 {
 main section img {
     width: 60%;
     height: auto;
-    max-width: 19%; 
+    max-width: 19%;
 }
 
 main section div {
@@ -96,14 +90,13 @@ main .adventures {
     gap: 20px;
 }
 
-footer{
+footer {
     display: flex;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    justify-content:end;
-   gap: 28%;
+    justify-content: end;
+    gap: 28%;
 }
-
 
 /* Class Selectors */
 .hero {
@@ -112,7 +105,7 @@ footer{
 
 .hero img {
     display: block;
-    width: 100%; 
+    width: 100%;
     height: auto;
 }
 
@@ -126,18 +119,17 @@ footer{
 .hero article p {
     margin-left: 1rem;
     margin-top: 1rem;
-    width:80%
+    width: 80%;
 }
 
 .hero h1 {
     background-color: var(--accent1-color);
     position: absolute;
     bottom: 70%;
-    width: 100%; 
+    width: 100%;
     text-align: center;
     color: white;
-    font-weight: 100;
-    padding: 1rem 0; 
+    font-weight: bold;
 }
 
 nav a img {
@@ -153,41 +145,41 @@ nav a img {
 
 main .history_div {
     display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap; 
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-left: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    gap: 2rem; 
+    gap: 2rem;
 }
 
 main .history_div div {
-    flex: 1; 
+    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    text-align: center; 
+    align-items: center;
+    text-align: center;
     gap: 10px;
 }
 
 main .history_div div img {
-    width: 100%; 
-    max-width: 80%; 
-    height: auto; 
+    width: 100%;
+    max-width: 80%;
+    height: auto;
 }
 
 main section .first_paragraph,
 main section .second_paragraph {
     width: 45%;
-    flex: 1; 
+    flex: 1;
+    text-align: justify; /* Set text alignment for both paragraphs */
 }
 
-main section .first_paragraph {
-    text-align: justify; 
+main .adventures div figure img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
-main section .second_paragraph {
-    text-align: justify; 
-}
 
 
