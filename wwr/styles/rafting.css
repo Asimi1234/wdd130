@@ -280,7 +280,7 @@ iframe{
 }
 .form-row label{
     margin-top: 9px;
-     font-family: 'Poppins', sans-serif;
+     font-family: 'Merriweather', serif;
 }
 
 .form-input {
@@ -288,7 +288,7 @@ iframe{
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Merriweather', serif;
 }
 
 .form-input-full {
@@ -315,6 +315,7 @@ iframe{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Merriweather', serif;
 }
 
 .button-container {
