@@ -220,6 +220,9 @@ height: 60%;
 .contact-box-dark h3, .contact-box-dark p{
     margin-top: -25px;
 }
+#form-message{
+    display: grid;
+}
 iframe{
     width:80%;
     height:93%;
@@ -263,9 +266,10 @@ iframe{
 
 /* Contact Form Section */
 .form-section {
-  background-color: #f0f0f0;
+  background-color: #f0f0f0d5;
   padding: 30px;
   border-radius: 4px;
+
 }
 
 .form-row {
@@ -276,6 +280,7 @@ iframe{
 }
 .form-row label{
     margin-top: 9px;
+     font-family: 'Poppins', sans-serif;
 }
 
 .form-input {
@@ -283,6 +288,7 @@ iframe{
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
+   font-family: 'Poppins', sans-serif;
 }
 
 .form-input-full {
