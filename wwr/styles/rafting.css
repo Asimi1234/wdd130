@@ -20,11 +20,11 @@ body {
 }
 
 header {
-    display: grid;
+    display: flex;
     grid-template-columns: auto 1fr;
     justify-content: center;
     align-items: center;
-    gap: 30%;
+    gap: 40%;
     margin-top: 10px;
     color: var(--primary-color);
 }
@@ -217,8 +217,8 @@ height: 60%;
 .contact-box-light h3, .contact-box-light iframe{
     margin-left: 20px;
 }
-.contact-box-dark h3{
-    margin-top: -20px;
+.contact-box-dark h3, .contact-box-dark p{
+    margin-top: -25px;
 }
 iframe{
     width:80%;
@@ -273,6 +273,9 @@ iframe{
   justify-content: space-between;
   gap: 20px;
 
+}
+.form-row label{
+    margin-top: 9px;
 }
 
 .form-input {

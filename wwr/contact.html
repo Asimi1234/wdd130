@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <meta
       name="description"
       content="White Water Rafting contact page, feel free to use any of the contact information to reach out to us"
-    />
-    <meta name="author" content="Israel Asimi" />
+    >
+    <meta name="author" content="Israel Asimi" >
     <title>Contact - White Water Rafting</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/rafting.css" />
+    >
+    <link rel="stylesheet" href="styles/rafting.css" >
   </head>
   <body>
     <header>
@@ -23,7 +23,7 @@
         src="images/raftingcompas.jpg"
         alt="raftingcompas_logo"
         width="100"
-      />
+      >
       <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Us</a>
@@ -36,11 +36,11 @@
       <!-- Contact Information Section -->
       <section class="contact-section">
         <div class="contact-box-dark">
-          <h1>Organization name: White Water Rafting</h1>
+          <h1>Organization Name: White Water Rafting</h1>
           <h3>Contact information:</h3>
-          <p>Address: </p>
-          <p>Phone number: </p>
-          <p>Email address: </p>
+          <p>Address:</p>
+          <p>Phone number:</p>
+          <p>Email address:</p>
         </div>
         <div class="contact-box-light">
           <h3>Our Location</h3>
@@ -57,16 +57,16 @@
       <!-- Team Section -->
       <section class="team-section">
         <div class="team-member" id="team-member1">
-          <img src="images/doe_(3).jpg" alt="John Doe - Developer" />
-          <p>John Doe<br />Developer</p>
+          <img src="images/doe.jpg" alt="John Doe - Developer" >
+          <p>John Doe<br >Developer</p>
         </div>
         <div class="team-member">
-          <img src="images/doe_(3).jpg" alt="Jane Smith - Manager" />
-          <p>Jane Smith<br />Manager</p>
+          <img src="images/jane.jpg" alt="Jane Smith - Manager" >
+          <p>Jane Smith<br >Manager</p>
         </div>
         <div class="team-member">
-          <img src="images/steves.jpg" alt="Steve Rock - Designer" />
-          <p>Steve Rock<br />Designer</p>
+          <img src="images/steves.jpg" alt="Steve Rock - Designer" >
+          <p>Steve Rock<br >Designer</p>
         </div>
       </section>
 
@@ -74,29 +74,35 @@
       <section class="form-section">
         <form class="main-form">
           <div class="form-row">
+            <label for="username" > Username: </label>
             <input
               type="text"
               name="username"
               placeholder="Enter username"
               class="form-input"
               id="username"
-            />
+            >
+            <label for="email">Email:</label>
             <input
               type="email"
               name="email"
               placeholder="Enter email address"
               class="form-input"
               id="email"
-            />
+            >
           </div>
           <div class="form-input-full">
-            <input
-              type="text"
-              name="subject"
-              placeholder="Subject"
-              class="form-input"
-              id="subject"
-            />
+            <p>Purpose of message:</p>
+            <input type="radio" id="subject1" name="subject" value="subject1" >
+            <label for="subject1">General Inquiry</label>
+            <br >
+
+            <input type="radio" id="subject2" name="subject" value="subject2" >
+            <label for="subject2">Reservation Question</label>
+            <br >
+
+            <input type="radio" id="subject3" name="subject" value="subject3" >
+            <label for="subject3">Website Suggestion</label>
           </div>
           <div class="form-input-full">
             <textarea
@@ -107,12 +113,13 @@
             ></textarea>
           </div>
           <div class="newsletter-checkbox">
-            <input type="checkbox" name="newsletter" id="newsletter" />
+            <input type="checkbox" name="newsletter" id="newsletter" >
             <label for="newsletter"
               >Please subscribe me to the monthly newsletter</label
             >
           </div>
           <div class="button-container">
+
             <button type="submit" class="submit-button" id="submit-button">
               Submit
             </button>
@@ -130,13 +137,13 @@
       </p>
       <nav class="sociallinks">
         <a href="https://facebook.com">
-          <img src="images/facebook_logo_icon.png" alt="facebook logo" />
+          <img src="images/facebook_logo_icon.png" alt="facebook logo" >
         </a>
         <a href="https://instagram.com">
-          <img src="images/instagram_logo_icon.png" alt="instagram logo" />
+          <img src="images/instagram_logo_icon.png" alt="instagram logo" >
         </a>
         <a href="https://twitter.com">
-          <img src="images/twitter_logo_icon.png" alt="twitter logo" />
+          <img src="images/twitter_logo_icon.png" alt="twitter logo" >
         </a>
       </nav>
     </footer>
