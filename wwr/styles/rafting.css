@@ -189,31 +189,41 @@ main .adventures div figure img {
 
 /* Contact Information Section */
 .contact-section {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #f4f4f4;
+ display: flex;
+ background-color: #cccccc33 ;
+ border-radius: 4px;
+ justify-content: center;
+ gap:20%;
+ margin-top: 10px;
 }
 
 .contact-box-dark {
-  flex: 1;
-  padding: 10px;
-  background-color: #333;
-  color: white;
+color: var(--secondary-color);
+ 
 }
-
+.contact-box-dark , .contact-box-light{
+  
+       display: grid;
+}
 .contact-box-light {
-  flex: 1;
-  padding: 10px;
-  background-color: #777;
-  color: white;
-}
 
-.contact-link {
-  text-decoration: none;
-  color: white;
+color: var(--secondary-color);
+height: 60%;
+  
 }
-
+.contact-box-dark h1{
+    color: var(--primary-color);
+}
+.contact-box-light h3, .contact-box-light iframe{
+    margin-left: 20px;
+}
+.contact-box-dark h3{
+    margin-top: -20px;
+}
+iframe{
+    width:80%;
+    height:93%;
+}
 /* Team Section */
 .team-section {
   display: flex;
@@ -245,6 +255,9 @@ main .adventures div figure img {
   width: 170%; 
   height: 170%; 
 } 
+.team-member p{
+    color: var(--secondary-color);
+}
 
 
 
@@ -252,6 +265,7 @@ main .adventures div figure img {
 .form-section {
   background-color: #f0f0f0;
   padding: 30px;
+  border-radius: 4px;
 }
 
 .form-row {
