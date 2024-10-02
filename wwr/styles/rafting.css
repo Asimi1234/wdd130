@@ -100,9 +100,10 @@ footer {
 .contact-footer{
     gap: 19%;
 }
-footer p a{
+footer p a, footer nav a{
     text-decoration: none;
 }
+
 
 /* Class Selectors */
 .hero {
