@@ -3,6 +3,8 @@
     --secondary-color: #bf7f11;
     --accent1-color: #454346;
     --accent2-color: #f2da88;
+
+    
 }
 
 /* Color palette link: https://coolors.co/201b11-243036-454346-bf7f11-f2da88 */
@@ -16,7 +18,7 @@
 body {
     max-width: 100%;
     margin: 0 auto;
-    font-family: 'Poppins', sans-serif; /* Set the default font for the body */
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -27,6 +29,7 @@ header {
     gap: 40%;
     margin-top: 10px;
     color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
 }
 
 header nav {
@@ -34,6 +37,9 @@ header nav {
     flex-direction: row;
     gap: 21px;
     margin-bottom: 0.5rem;
+}
+header nav a:hover{
+    color: var(--secondary-color);
 }
 
 header nav a {
@@ -179,7 +185,8 @@ main section .first_paragraph,
 main section .second_paragraph {
     width: 45%;
     flex: 1;
-    text-align: justify; /* Set text alignment for both paragraphs */
+    text-align: justify; 
+    margin-top: 7%;
 }
 
 main .adventures div figure img {
@@ -195,7 +202,7 @@ main .adventures div figure img {
  border-radius: 4px;
  justify-content: center;
  gap:20%;
- margin-top: 10px;
+ margin-top:5px;
 }
 
 .contact-box-dark {
@@ -205,6 +212,7 @@ color: var(--secondary-color);
 .contact-box-dark , .contact-box-light{
   
        display: grid;
+       margin-top: 16px;
 }
 .contact-box-light {
 
@@ -318,6 +326,9 @@ iframe{
   align-items: center;
   font-family: 'Merriweather', serif;
 }
+#newsletter:hover{
+    cursor: grabbing;
+}
 
 .button-container {
     display: flex;           
@@ -334,7 +345,10 @@ iframe{
   border: none;
 
 }
-
+.submit-button:hover{
+    background-color: var(--secondary-color);
+    cursor: grab;
+}
 
 
 
