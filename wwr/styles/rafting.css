@@ -209,7 +209,7 @@ main .adventures div figure img {
 }
 
 .contact-box-dark {
-color: var(--secondary-color);
+color: var(--primary-color);
  
 }
 .contact-box-dark , .contact-box-light{
@@ -219,7 +219,7 @@ color: var(--secondary-color);
 }
 .contact-box-light {
 
-color: var(--secondary-color);
+color: var(--primary-color);
 height: 60%;
   
 }
