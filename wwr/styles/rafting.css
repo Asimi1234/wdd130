@@ -291,10 +291,9 @@ iframe{
 .team-member p{
     color: var(--secondary-color);
 }
-/* Team Section */
+/* Purpose Section */
 .purpose-section {
- display: grid;
-  grid-template-columns: repeat(3, 1fr);
+display: grid;
   justify-content: center; 
   align-items: center; 
   gap: 10px;
@@ -305,9 +304,12 @@ iframe{
 
 .purpose{
   display: grid;
-   
 }
+.purpose-section h2{
+    margin-bottom: 15px;
+    font-size:2.4rem;
 
+}
 .purpose img {
    width: 90%;
     max-width: 90%;
