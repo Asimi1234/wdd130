@@ -100,17 +100,30 @@ main .adventures {
 }
 
 footer {
-    display: flex;
-    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Create flexible columns */
+   margin-top: 2rem;
     margin-bottom: 1rem;
-    justify-content: end;
-    gap: 29%;
+    justify-items: right;
+    gap: 2%;
+
 }
-.contact-footer{
-    gap: 19%;
+footer p{
+    position: relative;
+    left: 30%;
 }
-footer p a, footer nav a{
+.contact-footer {
+        gap: 10%;
+   
+}
+.contact-footer p{
+    position: relative;
+    left: 55%;
+}
+
+footer p a, footer nav a {
     text-decoration: none;
+    color: inherit; /* Ensure the color remains the same as before */
 }
 
 
@@ -260,9 +273,10 @@ iframe{
 /* Team Section */
 .team-section {
   display: flex;
+  flex-direction: column;
   justify-content: center; 
   align-items: center; 
-  gap: 10px;
+  gap: 23px;
   padding: 20px;
   text-align: center; 
 }
@@ -280,13 +294,9 @@ iframe{
   border-radius: 10%;
 }
 
-#team-member1 {
-  width: 60%; /* Adjust the size of team-member1 */
-}
-
 #team-member1 img {
-  width: 170%; 
-  height: 170%; 
+  width: 60%; 
+  height: 60%; 
 } 
 .team-member p{
     color: var(--secondary-color);
