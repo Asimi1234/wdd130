@@ -513,4 +513,13 @@ tr {
 }
 .trip-table{
     margin-top: 40px;
+    
+}
+.trips-footer {
+        gap: 10%;
+   
+}
+.trips-footer p{
+    position: relative;
+    left: 55%;
 }
