@@ -299,7 +299,7 @@ iframe{
   height: 60%; 
 } 
 .team-member p{
-    color: var(--secondary-color);
+    color: var(--accent1-color);
 }
 /* Purpose Section */
 .purpose-section {
